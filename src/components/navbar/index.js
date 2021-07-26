@@ -22,14 +22,12 @@ function Navbar() {
                         <Link className='navbar-link' to={''}>Clientes</Link>
                         <div className="navbar-dropdown is-boxed">
                             <Link className='navbar-item' to={'/cadastro-cliente'}>Cadastro</Link>
-                            <Link className='navbar-item' to={'/lista-cliente'}>Lista</Link>
                         </div>
                     </div>
                     <div className="navbar-item has-dropdown is-hoverable">
                         <Link className='navbar-link' to={''}>Produtos</Link>
                         <div className="navbar-dropdown is-boxed">
                             <Link className='navbar-item' to={'/cadastro-produto'}>Cadastro</Link>
-                            <Link className='navbar-item' to={'/lista-produto'}>Lista</Link>
                         </div>
                     </div>
                 </div>
